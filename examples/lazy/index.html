@@ -18,7 +18,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     font-size: 3em;
   }
   h1 img {
-    height: 64px !important;
+    height: 48px !important;
+  }
+  .defer-logo {
+    height: 30px !important;
   }
 }
 
@@ -204,6 +207,10 @@ hr {
     width: 100%;
     border-top: 2px solid black;
     background: #fff;
+}
+
+.defer-logo {
+  height: 20px;
 }
 
 .content-middle {
@@ -630,7 +637,7 @@ appear({
 <div class="cover">
   <div class="title">
     <a href="http://creativelive.github.io/appear/"><h1>appear<img class="appear" data-delay="1000" data-src="https://cdn.rawgit.com/creativelive/appear/ac50b538687b3ab111131a02780373de479fca50/assets/appear-64.png"/>js</h1></a>
-    <span id="message">the <img src=" https://cdn.rawgit.com/creativelive/appear/ac50b538687b3ab111131a02780373de479fca50/assets/appear-64.png" height=20 /> above lazyloaded after a one second timeout<br>lazyload images example below - scroll down<br>all images from <a href="http://simpledesktops.com">simpledesktops.com</a></span>
+    <span id="message">the <img src=" https://cdn.rawgit.com/creativelive/appear/ac50b538687b3ab111131a02780373de479fca50/assets/appear-64.png" class="defer-logo" /> above lazyloaded after a one second timeout<br>lazyload images example below - scroll down<br>all images from <a href="http://simpledesktops.com">simpledesktops.com</a></span>
   </div>
 </div>
 
